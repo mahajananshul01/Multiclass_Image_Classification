@@ -1,0 +1,11 @@
+from azureml.core import Run
+
+run = Run.get_context()
+
+if hasattr(run, 'input_datasets'):
+    dataset = run.input_datasets['your_dataset_name']
+    # Process the dataset as needed
+else:
+    # Fallback for offline or local run
+    print("Running offline. Input datasets are not available in this context.")
+    # Load dataset locally or mock the dataset
