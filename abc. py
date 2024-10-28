@@ -1,5 +1,26 @@
 from azureml.core import Run
 
+# Get the current run context
+run = Run.get_context()
+
+# Check if run is offline and handle accordingly
+if hasattr(run, 'input_datasets'):
+    print("Running in Azure ML, loading dataset from input_datasets...")
+    dataset = run.input_datasets['your_dataset_name']
+else:
+    print("Running offline. Input datasets are not available in this context.")
+    # Load dataset locally instead of using input_datasets
+    dataset_path = "/local/path/to/your/dataset.csv"
+    dataset = pd.read_csv(dataset_path)  # or other appropriate loading function
+    print(f"Loaded local dataset from: {dataset_path}")
+
+
+
+*******
+
+
+from azureml.core import Run
+
 run = Run.get_context()
 
 if hasattr(run, 'input_datasets'):
