@@ -1,3 +1,28 @@
+Hello Praveen,
+ 
+I hope this message finds you well. As my time at KX Project draws to a close, I wanted to provide a comprehensive overview of the knowledge transfer sessions I have conducted over the past few months and express my readiness to assist further if needed.
+ 
+Throughout September 2024, I dedicated significant effort to ensuring a smooth transition and understanding of the machine learning concepts and KX ML assets across our team. Here is a summary of the activities undertaken:
+ 
+Knowledge Transfer Sessions:
+Conducted 4-5 in-depth sessions, each lasting 1 to 1.5 hours, focusing on comprehensive machine learning concepts and integrating KX ML assets into our workflows.
+
+Individual Follow-Ups:
+Proactively followed up with team members to gauge their understanding and application of the knowledge shared. This included personalized interactions to address any gaps in learning.
+
+One-on-One Support:
+Dedicated personal hours for one-on-one sessions to assist team members with concept clarification, installation guidance, and code analysis. This support was extended up to two days before my departure.
+I firmly believe that these efforts have enhanced our team's capability to handle machine learning tasks more independently. However, I am aware that questions and challenges may still arise. Therefore, I am committed to providing additional support even after my official last working day, should it be required.
+ 
+Please do not hesitate to reach out if further assistance is needed or if there are any specific areas where I can be of help.
+ 
+Thank you for the opportunity to contribute to the team's development. I am confident in the continued growth and success of our projects.
+ 
+Warm regards,
+Anshul Mahajan
+
+
+
 from azureml.core import Run
 
 # Get the current run context
